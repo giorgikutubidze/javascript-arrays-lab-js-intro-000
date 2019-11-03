@@ -17,3 +17,7 @@ function appendKitten(name){
 var newaray = [...kittens,name];
 return newaray;
 }
+function prependKitten(name){
+  var newaray = [name,...kittens];
+  return newaray;
+}
